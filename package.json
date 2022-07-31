@@ -1,0 +1,22 @@
+{
+  "name": "js211_apiapp",
+  "version": "1.0.0",
+  "description": "Clone it to one of your machines\r npm init\r Understand dotenv\r npm install dotenv --save\r require('dotenv').config() at the top of your main.js\r create a .gitignore file in the root folder\r add .env to the .gitignore file\r create a .env in the root folder and save your API key in it by...\r adding something like SECRET_KEY=abcd1234 to the .env file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregkillebrew/JS211_APIApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gregkillebrew/JS211_APIApp/issues"
+  },
+  "homepage": "https://github.com/gregkillebrew/JS211_APIApp#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
