@@ -1,2 +1,5 @@
 # Don't include .env in GITHUB repo
 .env
+
+# Don't include node_modules
+node_modules
