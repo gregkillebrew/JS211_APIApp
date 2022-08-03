@@ -39,7 +39,7 @@ const displayChars = () => {
   const allPosts = document.getElementById('all-posts')
   arrayOfChars.map((post, index) => {
     const li = document.createElement('li')
-    const text = document.createTextNode(`#${index}, Title: ${post.name}:  ${post.body}, by user: ${post.userId}`)
+    const text = document.createTextNode(`#${index}, Title: ${post.name}, URL: ${post.urls}`)
     li.appendChild(text)
     allPosts.append(li)
   })

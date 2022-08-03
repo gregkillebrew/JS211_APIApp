@@ -9,10 +9,36 @@
 <body>
     <h1>Search here for Marvel Info!</h1>
     <form id="form"> 
+        <script src="main.js"></script>
         <input type="search" onkeyup="getPosts(this.value)" type="text"
         id="query" name="q">
         <button>Search</button>
       </form>
-    <script src="main.js"></script>
+    
 </body>
+
+<body>
+    <script src="./main.js"></script>
+    <div id="list-box"> 
+        <div id="all-characters">
+            <h2>All Characters</h2>
+            <button class="headerbutton" onclick="displayPost()">List Heroes</button>
+            <ul id="all-characters"></ul>
+        </div>
+        <div id="column2">
+            <h2>Haves</h2>
+            <ul id="haves"></ul>
+        </div>
+        <div id="column3">
+            <h2>Have Nots</h2>
+            <ul id="have-nots"></ul>
+        </div>
+    </div>
+</body>
+
+
+
+
+
+
 </html>
